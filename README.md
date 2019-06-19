@@ -6,5 +6,3 @@ Use 'W','A','S','D' to move and reach the end of the maze within the given time!
 Components: html,css,js
 
 (Might not work in chrome browser)
-
-Made By Nikhil Sampangi
