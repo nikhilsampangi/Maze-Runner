@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Maze runner</title>
+    <!-- bootstrap -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="maze.css" />
+    <script src="maze.js"></script>
+  </head>
+  <body>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div style="text-align:center;" class="container">
+      <h3>Maze Runner</h3>
+      <p>
+        Helooo!<br />
+        This is a simple maze game where you are a square and you need to reach
+        the green circle by travelling through the maze. Use "W","A","S","D" to
+        control your square,hurry the clock is ticking!!!
+      </p>
+      <br />
+      <input
+        type="button"
+        class="btn btn-outline-primary"
+        onclick="startGame()"
+        id="st"
+        value="Start Game"
+      />
+      <input
+        type="button"
+        class="btn btn-outline-success"
+        onclick="location.reload();"
+        value="Reset"
+      />
+      <p id="intro"></p>
+      <br />
+      <canvas width="636" height="556" id="mazecanvas"
+        >Your browser doesn't support HTML5 canvas tag</canvas
+      >
+    </div>
+  </body>
+</html>
